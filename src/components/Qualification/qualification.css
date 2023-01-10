@@ -58,11 +58,35 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
+.qualification__title-link {
+  color: inherit;
+}
 
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
+}
+
+.qualification__sertificate {
+  font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
+  cursor: pointer;
+}
+
+.qualification__sertificate-link {
+  display: flex;
+  align-items: center;
+  color: var(--title-color-light);
+  gap: 0.1rem;
+  transition: color 0.2s;
+}
+
+.qualification__sertificate-link:hover {
+  color: var(--title-color-dark);
+}
+
+.qualification__sertificate-icon {
+  font-size: 1.5rem;
 }
 
 .qualification__calendar {

@@ -40,11 +40,11 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+              <div className="">
+                <h3 className="qualification__title">Node JS course</h3>
+                <span className="qualification__subtitle">RSSChool EPAM</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>December 2022 - now
                 </div>
               </div>
 
@@ -57,37 +57,57 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
+              <div className=""></div>
+
+              <div className="">
+                <span className="qualification__rounded"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">React course</h3>
+                <span className="qualification__subtitle">RSSchool EPAM</span>
+                <div className="qualification__sertificate">
+                  <a
+                    className="qualification__sertificate-link"
+                    href="https://app.rs.school/certificate/5dab6ifp"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Sertificate <i className="bx  bx-award qualification__sertificate-icon"></i>
+                  </a>
+                </div>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>September 2022 - December 2022
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div className="">
+                <h3 className="qualification__title">JavaScript course</h3>
+                <span className="qualification__subtitle">RSSchool EPAM</span>
+                <div className="qualification__sertificate">
+                  <a
+                    className="qualification__sertificate-link"
+                    href="https://app.rs.school/certificate/w1et2c7r"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Sertificate <i className="bx  bx-award qualification__sertificate-icon"></i>
+                  </a>
+                </div>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>March 2022 - September 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounded"></span>
+                <span className="qualification__line"></span>
+              </div>
+
               <div></div>
-
-              <div>
-                <span className="qualification__rounded"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div className="">
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - 2021
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2018 - 2020
-                </div>
-              </div>
-
-              <div className="">
-                <span className="qualification__rounded"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div className=""></div>
             </div>
 
             <div className="qualification__data">
@@ -98,11 +118,11 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div className="">
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+              <div>
+                <h3 className="qualification__title">HTML course</h3>
+                <span className="qualification__subtitle">HTML Academy</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2017 - 2018
+                  <i className="uil uil-calendar-alt"></i>February 2022 - March 2022
                 </div>
               </div>
             </div>
@@ -117,10 +137,20 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div className="">
-                <h3 className="qualification__title">Product Design</h3>
-                <span className="qualification__subtitle">Microsoft - Spain</span>
+                <h3 className="qualification__title">
+                  <a
+                    className="qualification__title-link"
+                    href="https://github.com/Ilyxxxaa/project-management-app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {' '}
+                    Project Management App
+                  </a>
+                </h3>
+                <span className="qualification__subtitle">Trello analogue</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>November 2022 - December 2022
                 </div>
               </div>
               <div className="">
@@ -140,15 +170,26 @@ const Qualification = () => {
               </div>
 
               <div className="">
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple Inc - Spain</span>
+                <h3 className="qualification__title">
+                  {' '}
+                  <a
+                    className="qualification__title-link"
+                    href="https://github.com/Ilyxxxaa/RSLang"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {' '}
+                    RSLang
+                  </a>
+                </h3>
+                <span className="qualification__subtitle">App for learning English</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - 2021
+                  <i className="uil uil-calendar-alt"></i>July 2022 - September 2022
                 </div>
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div className="">
                 <h3 className="qualification__title">Web Designer</h3>
                 <span className="qualification__subtitle">Figma - Spain</span>
@@ -162,9 +203,9 @@ const Qualification = () => {
               </div>
 
               <div className=""></div>
-            </div>
+            </div> */}
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div className=""></div>
 
               <div className="">
@@ -179,7 +220,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i>2017 - 2018
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
