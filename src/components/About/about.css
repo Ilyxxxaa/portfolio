@@ -5,8 +5,7 @@
 }
 
 .about__img {
-  width: 350px;
-  /* height: 350px; */
+  width: 400px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -61,8 +60,7 @@
   }
 
   .about__img {
-    width: 220px;
-    height: 220px;
+    width: 300px;
   }
 
   .about__box {
@@ -84,6 +82,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .about__img {
+    width: 280px;
+  }
+
   .about__info {
     grid-template-columns: repeat(3, 1fr);
   }

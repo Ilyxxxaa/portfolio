@@ -1,24 +1,19 @@
 export const frontendSkills = [
-  {
-    name: 'HTML',
-    level: 'Basic',
-  },
-  {
-    name: 'CSS',
-    level: 'Advanced',
-  },
-  {
-    name: 'JavaScript',
-    level: 'Intermediate',
-  },
-  {
-    name: 'Git',
-    level: 'Intermediate',
-  },
-  {
-    name: 'React',
-    level: 'Intermediate',
-  },
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'SASS/SCSS',
+  'Webpack',
+  'Typescript',
+  'Git',
+  'Git',
+  'Git',
+  'React',
+  'Redux',
+  'Redux Toolkit',
+  'RTK Query',
+  'Tailwind CSS',
+  'Figma',
 ];
 
 export const backendSkills = [{ name: 'NodeJS', level: 'Basic' }];

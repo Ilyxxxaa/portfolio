@@ -1,7 +1,7 @@
 export const navInfo = [
   {
     a_className: 'nav__link ',
-    i_className: 'uil-estate ',
+    i_className: 'uil-home ',
     text: 'Home',
     href: '#home',
   },

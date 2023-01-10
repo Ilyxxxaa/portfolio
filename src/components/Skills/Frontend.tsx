@@ -7,22 +7,20 @@ const Frontend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          {frontendSkills.map((item, index) => {
-            if (index <= 1) {
-              return (
-                <div className="skills__data" key={item.name}>
-                  <i className="bx bx-badge-check"></i>
+          {frontendSkills.map((item) => {
+            return (
+              <div className="skills__data" key={item}>
+                <i className="bx bx-badge-check"></i>
 
-                  <div className="">
-                    <h3 className="skills__name">{item.name}</h3>
-                    <span className="skills__level">{item.level}</span>
-                  </div>
+                <div className="">
+                  <h3 className="skills__name">{item}</h3>
+                  {/* <span className="skills__level">{item.level}</span> */}
                 </div>
-              );
-            }
+              </div>
+            );
           })}
         </div>
-        <div className="skills__group">
+        {/* <div className="skills__group">
           {frontendSkills.map((item, index) => {
             if (index >= 3) {
               return (
@@ -37,7 +35,7 @@ const Frontend = () => {
               );
             }
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

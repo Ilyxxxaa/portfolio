@@ -1,5 +1,5 @@
 import './skills.css';
-import Backend from './Backend';
+// import Backend from './Backend';
 import Frontend from './Frontend';
 import Qualification from '../Qualification/Qualification';
 
@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
 
-        <Backend />
+        {/* <Backend /> */}
       </div>
       <Qualification />
     </section>
