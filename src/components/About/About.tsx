@@ -1,9 +1,18 @@
-import './about.css';
+import { useState, useCallback } from 'react';
 import aboutImg from '../../assets/about.jpg';
 import CV from '../../assets/John-Cv.pdf';
 import Info from './Info';
+import Modal from '../Modal/Modal';
+import './about.css';
 
 const About = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const showModalHandler = useCallback(() => {
+    setShowModal(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
@@ -15,9 +24,14 @@ const About = () => {
           <Info />
 
           <p className="about__descr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quia porro temporibus,
-            blanditiis modi maiores atque eos neque fugiat sed deserunt nobis reprehenderit et sit
-            voluptates reiciendis necessitatibus magnam facilis?
+            Ever since I started programming, I feel like my brain is working at full capacity, and
+            it`s amazing! I am constantly learning, developing and improving, so I am sure that
+            thanks to my skills and personal qualities I will be able to achieve a lot in this
+            industry.{'  '}
+            <button className="about__descr-btn" onClick={showModalHandler}>
+              Learn more...
+            </button>
+            <Modal showModal={setShowModal} modal={showModal} />
           </p>
 
           <a download="" className="button button--flex" href={CV}>

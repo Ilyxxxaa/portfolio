@@ -10,7 +10,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__descr">
-        I am creative and powerful developer with 8 month expirience in team web development
+        I am enthusiastic and detail-oriented frontend developer with big passion for programming
       </p>
       <a className="button button--flex" href="">
         Say Hello

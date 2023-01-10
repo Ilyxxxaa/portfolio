@@ -45,6 +45,15 @@
   margin-bottom: var(--mb-2-5);
 }
 
+.about__descr-btn {
+  transition: color 0.2s;
+  color: var(--title-color);
+  background-color: initial;
+}
+.about__descr-btn:hover {
+  color: var(--title-color-dark);
+}
+
 @media screen and (max-width: 992px) {
   .about__container {
     grid-template-columns: 1fr;
