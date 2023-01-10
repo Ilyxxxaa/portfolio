@@ -1,3 +1,7 @@
+.home {
+  min-height: calc(100vh - 72px);
+}
+
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
   padding-top: 5.5rem;
@@ -117,6 +121,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .home {
+    min-height: initial;
+  }
+
   .home__content {
     grid-template-columns: 100px repeat(2, 1fr);
     column-gap: 1.25rem;
