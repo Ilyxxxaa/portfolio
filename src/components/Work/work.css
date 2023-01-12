@@ -40,7 +40,7 @@
 }
 
 .work__img {
-  width: 295px;
+  width: 400px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
@@ -78,6 +78,7 @@
   }
 
   .work__img {
+    width: 320px;
     margin-bottom: 0.75rem;
   }
 
