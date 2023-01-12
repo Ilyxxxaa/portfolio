@@ -1,6 +1,6 @@
 import rslang from '../../assets/rslang.png';
 import pma from '../../assets/pma.png';
-import work3 from '../../assets/work3.jpg';
+import virtualKeyboard from '../../assets/virtual-keyboard.png';
 import work4 from '../../assets/work4.jpg';
 import work5 from '../../assets/work5.jpg';
 
@@ -21,10 +21,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: work3,
-    title: 'Web Design',
-    category: 'web',
-    link: 'https://github.com/Ilyxxxaa/RSLang',
+    image: virtualKeyboard,
+    title: 'Virtual Keyboard',
+    category: 'vanilla JS',
+    link: 'https://github.com/Ilyxxxaa/Virtual-Keyboard',
   },
   {
     id: 4,
