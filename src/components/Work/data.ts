@@ -1,5 +1,5 @@
-import RSlang from '../../assets/rslang.png';
-import work2 from '../../assets/work2.jpg';
+import rslang from '../../assets/rslang.png';
+import pma from '../../assets/pma.png';
 import work3 from '../../assets/work3.jpg';
 import work4 from '../../assets/work4.jpg';
 import work5 from '../../assets/work5.jpg';
@@ -7,17 +7,17 @@ import work5 from '../../assets/work5.jpg';
 export const projectsData = [
   {
     id: 1,
-    image: RSlang,
+    image: rslang,
     title: 'RSLang - english learning app',
-    category: 'design',
+    category: 'vanilla JS',
     link: 'https://github.com/Ilyxxxaa/RSLang',
   },
   {
     id: 2,
-    image: work2,
-    title: 'Web Design',
-    category: 'web',
-    link: 'https://github.com/Ilyxxxaa/RSLang',
+    image: pma,
+    title: 'Project Management System - trello analogue',
+    category: 'react',
+    link: 'https://github.com/Ilyxxxaa/project-management-app',
   },
   {
     id: 3,
@@ -47,10 +47,10 @@ export const navData = [
     name: 'all',
   },
   {
-    name: 'design',
+    name: 'vanilla JS',
   },
   {
-    name: 'web',
+    name: 'react',
   },
   {
     name: 'app',
