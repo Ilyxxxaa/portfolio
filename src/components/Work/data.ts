@@ -3,6 +3,7 @@ import pma from '../../assets/pma.png';
 import virtualKeyboard from '../../assets/virtual-keyboard.png';
 import shelter from '../../assets/shelter.png';
 import onlineStore from '../../assets/online-store.png';
+import asyncRace from '../../assets/async-race.png';
 
 export const projectsData = [
   {
@@ -20,25 +21,32 @@ export const projectsData = [
     link: 'https://github.com/Ilyxxxaa/project-management-app',
   },
   {
-    id: 5,
+    id: 3,
     image: onlineStore,
     title: 'Online Store',
     category: 'vanilla JS',
     link: 'https://github.com/Ilyxxxaa/online-store',
   },
   {
-    id: 3,
+    id: 4,
     image: virtualKeyboard,
     title: 'Virtual Keyboard',
     category: 'vanilla JS',
     link: 'https://github.com/Ilyxxxaa/Virtual-Keyboard',
   },
   {
-    id: 4,
+    id: 5,
     image: shelter,
     title: 'Shelter',
     category: 'vanilla JS',
     link: 'https://github.com/Ilyxxxaa/shelter',
+  },
+  {
+    id: 6,
+    image: asyncRace,
+    title: 'Async Race',
+    category: 'vanilla JS',
+    link: 'https://github.com/Ilyxxxaa/async-race/',
   },
 ];
 

@@ -6,15 +6,15 @@ export const contactCardsArray = [
     iconClassName: 'bx-mail-send',
   },
   {
-    title: 'Telegram',
-    data: 'ilyxxxa',
-    href: 'mailto:ilyxakotsur@gmail.com',
-    iconClassName: 'bxl-telegram ',
+    title: 'Discord',
+    data: 'ilyxxxa#8084',
+    href: 'https://discord.com/users/430411512797069312',
+    iconClassName: 'bxl-discord-alt ',
   },
   {
-    title: 'Telegram1',
+    title: 'Telegram',
     data: 'ilyxxxa',
-    href: 'mailto:ilyxakotsur@gmail.com',
+    href: 'https://telegram.me/ilyxxxaaa',
     iconClassName: 'bxl-telegram ',
   },
 ];

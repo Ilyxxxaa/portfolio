@@ -13,19 +13,19 @@ export const Social = ({ divClassName, linkClassName }: IProps) => {
     <div className={divClassName}>
       <a
         className={linkClassName}
-        href="https://www.instagram.com/ilya_kotsur/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <AiOutlineInstagram size={25} />
-      </a>
-      <a
-        className={linkClassName}
         href="https://github.com/Ilyxxxaa"
         target="_blank"
         rel="noreferrer"
       >
         <AiOutlineGithub size={25} />
+      </a>
+      <a
+        className={linkClassName}
+        href="https://www.linkedin.com/in/ilyxxxaa/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <AiFillLinkedin size={25} />
       </a>
       <a
         className={linkClassName}
@@ -37,11 +37,11 @@ export const Social = ({ divClassName, linkClassName }: IProps) => {
       </a>
       <a
         className={linkClassName}
-        href="https://www.linkedin.com/in/ilyxxxaa/"
+        href="https://www.instagram.com/ilya_kotsur/"
         target="_blank"
         rel="noreferrer"
       >
-        <AiFillLinkedin size={25} />
+        <AiOutlineInstagram size={25} />
       </a>
     </div>
   );
