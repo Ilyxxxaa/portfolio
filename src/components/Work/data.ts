@@ -2,8 +2,7 @@ import rslang from '../../assets/rslang.png';
 import pma from '../../assets/pma.png';
 import virtualKeyboard from '../../assets/virtual-keyboard.png';
 import shelter from '../../assets/shelter.png';
-
-import work5 from '../../assets/work5.jpg';
+import onlineStore from '../../assets/online-store.png';
 
 export const projectsData = [
   {
@@ -21,6 +20,13 @@ export const projectsData = [
     link: 'https://github.com/Ilyxxxaa/project-management-app',
   },
   {
+    id: 5,
+    image: onlineStore,
+    title: 'Online Store',
+    category: 'vanilla JS',
+    link: 'https://github.com/Ilyxxxaa/online-store',
+  },
+  {
     id: 3,
     image: virtualKeyboard,
     title: 'Virtual Keyboard',
@@ -33,13 +39,6 @@ export const projectsData = [
     title: 'Shelter',
     category: 'vanilla JS',
     link: 'https://github.com/Ilyxxxaa/shelter',
-  },
-  {
-    id: 5,
-    image: work5,
-    title: 'Design KFC',
-    category: 'design',
-    link: 'https://github.com/Ilyxxxaa/RSLang',
   },
 ];
 
