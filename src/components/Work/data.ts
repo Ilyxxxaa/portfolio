@@ -1,7 +1,8 @@
 import rslang from '../../assets/rslang.png';
 import pma from '../../assets/pma.png';
 import virtualKeyboard from '../../assets/virtual-keyboard.png';
-import work4 from '../../assets/work4.jpg';
+import shelter from '../../assets/shelter.png';
+
 import work5 from '../../assets/work5.jpg';
 
 export const projectsData = [
@@ -28,10 +29,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: work4,
-    title: 'App Movie',
-    category: 'app',
-    link: 'https://github.com/Ilyxxxaa/RSLang',
+    image: shelter,
+    title: 'Shelter',
+    category: 'vanilla JS',
+    link: 'https://github.com/Ilyxxxaa/shelter',
   },
   {
     id: 5,
