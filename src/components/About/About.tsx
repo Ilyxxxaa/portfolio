@@ -34,7 +34,7 @@ const About = () => {
             <Modal showModal={setShowModal} modal={showModal} />
           </p>
 
-          <a download="" className="button button--flex" href={CV}>
+          <a download="IlyaKotsur_CV" className="button button--flex" href={CV}>
             Download CV
             <svg
               className="button__icon"
