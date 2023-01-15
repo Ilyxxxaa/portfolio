@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import aboutImg from '../../assets/about.jpg';
-import CV from '../../assets/John-Cv.pdf';
+import CV from '../../assets/IlyaKotsur_CV.pdf';
 import Info from './Info';
 import Modal from '../Modal/Modal';
 import './about.css';
