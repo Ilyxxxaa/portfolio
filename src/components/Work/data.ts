@@ -60,7 +60,7 @@ export const navData = [
   {
     name: 'react',
   },
-  {
-    name: 'app',
-  },
+  // {
+  //   name: 'react Native',
+  // },
 ];

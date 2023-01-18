@@ -37,12 +37,16 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .work__img {
   width: 400px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
+  align-self: center;
+  text-align: center;
 }
 
 .work__title {
@@ -70,7 +74,7 @@
 
 @media screen and (max-width: 992px) {
   .work__container {
-    gap: 1.25rem;
+    gap: 1rem;
   }
 
   .work__card {
@@ -87,10 +91,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .work__container {
     grid-template-columns: max-content;
   }
+}
+
+@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 576px) {
