@@ -57,8 +57,9 @@ const Modal: React.FC<ModalProps> = ({ modal, showModal }) => {
               this industry.
             </p>
             <p>
-              Now I am looking a company, where I can work with wonderful people and great projects
-              and can grow as a professional, develop, implement cool ideas.
+              Now I am looking a company, where I can work with wonderful people and get commercial
+              experience on real projects, grow as a professional, develop and implement complex
+              solutions and work in team environment.
             </p>
           </div>
         </div>
