@@ -12,7 +12,7 @@ const Data = () => {
       <p className="home__descr">
         I am enthusiastic and detail-oriented frontend developer with big passion for programming
       </p>
-      <a className="button button--flex" href="">
+      <a className="button button--flex" href="https://www.linkedin.com/in/ilyxxxaa/">
         Say Hello
         <img src={send} alt="send" />
       </a>

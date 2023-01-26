@@ -42,7 +42,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div className="">
                 <h3 className="qualification__title">Node JS course</h3>
-                <span className="qualification__subtitle">RSSChool EPAM</span>
+                <span className="qualification__subtitle">RSSсhool EPAM</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>December 2022 - now
                 </div>
