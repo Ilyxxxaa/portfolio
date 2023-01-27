@@ -32,7 +32,7 @@ export const projectsData = [
     image: virtualKeyboard,
     title: 'Virtual Keyboard',
     category: 'vanilla JS',
-    link: 'https://github.com/Ilyxxxaa/Virtual-Keyboard',
+    link: 'https://github.com/Ilyxxxaa/virtualKeyboard',
   },
   {
     id: 5,
